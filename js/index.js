@@ -1,8 +1,8 @@
 $(document).ready(function () {
     //===============Loading===============
-    setTimeout(function(){ 
-        $(".loading-container").hide();
-    }, 1000);
+    
+    $(".loading-container").hide();
+    
 
     //===============OwlCarousel===============
     $('.owl-carousel').owlCarousel({
